@@ -22,6 +22,7 @@ body, html {
 }
 
 .main {
+	height: 80%;
 	transition:all .3s ease-in-out;
 }
 
@@ -77,13 +78,14 @@ body, html {
 }
 
 .footer {
-	background: rgba(0,0,0,0.2);
+	background: rgba(0,0,0,0.1);
 	bottom: 0;
-	height: fit-content;
+	position: absolute;
 	width: 100%;
-	box-shadow: 0px -10px 10px rgba(0, 0, 0, .2);
+	transform: translateY(50%);
+    padding: 1px 0 15px 0;
+	box-shadow: 0px -10px 10px rgba(0, 0, 0, .1);
 	transition:all .3s ease-in-out;
-	padding-bottom: 25px;
 }
 
 .footer h1 {
@@ -96,13 +98,11 @@ body, html {
 
 .footer .sign {
 	transition:all .3s ease-in-out;
+	text-align: center;
 }
 
 .footer .sign .innersign {
 	font-size: 25px;
-	transform: translate(0, 0);
-	left: 0;
-	text-align: center;
 	transition:all .5s ease-in-out;
 	margin-top: -15px;
 }
@@ -120,7 +120,7 @@ body, html {
 	transition:all .3s ease-in-out;
 }
 
-.footer p {
+.footer .sign p {
 	font-family: Cookie;
 	font-size: 45px;
 	color: #fff;
