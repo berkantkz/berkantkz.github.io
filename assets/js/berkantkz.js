@@ -75,5 +75,25 @@ if(window.location.href.indexOf("eng") > -1) {
 	english('<a href="https://github.com/berkantkz/berkantkz.github.io" target="_blank">Bu web sayfası GitHub Pages\'da barındırılmaktadır.</a>','<a href="https://github.com/berkantkz/berkantkz.github.io" target="_blank">This web page is hosted with GitHub Pages.</a>');
 	document.getElementById('tr').style.display = 'initial';
 	document.getElementById('gb').style.display = 'none';
+}
 
-	}
+$().ready(function(){
+        	
+        	var $container = $('.masonry-container');
+
+            doc_width = $(document).width();
+            
+            if (doc_width >= 768){
+                $container.masonry({
+                    itemSelector        : '.card-box',
+                    columnWidth         : '.card-box',
+                    transitionDuration  : 0
+                });
+            };            
+});
+
+var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+if (isMobile) {
+  document.body.style.background = 'radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.88))';
+  $('.mas-container').removeClass('mas-container').addClass('row');
+}
