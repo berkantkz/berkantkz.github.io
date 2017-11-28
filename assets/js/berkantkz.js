@@ -49,6 +49,7 @@ if(window.location.href.indexOf("eng") > -1) {
 	document.documentElement.lang = 'en';
 	english('"Ne mutlu Türk\'üm diyene!"','"How happy the one who says I\'m a Turk!"');
 	english('Wikipedia\'dan Wiki Zero\'ya andaş olarak yönlendirme görevini yapan Chromium eklentisi.','A Chromium extension which automatically redirects WikiPedia to Wiki Zero');
+	english('Proje sayfası','Project page');
 	english('Bilgi','Info');
 	english('Yaşam öyküm','My biography');
 	english('99 yılında Kocaeli\'de doğdum, orada büyüdüm. Şuan Kırklareli Üniversitesi\'nde mütercim tercümanlık bölümünde okuyorum. İstanbul\'dan Fenerbahçe Spor Kulübünü destekliyorum.','I was born in the year 99 in Kocaeli, grew up there. Now, I\'m studying translation-interpretationan at Kırklareli University. I support Fenerbahçe Spor Kulübü among İstanbul clubs.');
