@@ -16,7 +16,7 @@ i {
 }
 
 body {
-    background-image: url(house.jpg);
+    background-image: url(e1zRTOC.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -25,7 +25,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    min-height: var(--viewport-height);
+    backdrop-filter: blur(3px);
     overflow: hidden;
     position: relative;
     z-index: 2;
@@ -39,7 +39,7 @@ body::before {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #151515aa;
+    background-color: #49494970;
     z-index: 2;
 }
 
