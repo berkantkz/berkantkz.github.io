@@ -149,6 +149,46 @@ main {
     transition: ease-in .15s;
 }
 
+.telegram:hover {
+    background:#0088cc;
+}
+
+.github:hover {
+    background:#171515;
+}
+
+.instagram:hover {
+    background: radial-gradient(circle at 30% 107%, #fdf497c6 0%, #fdf497c6 5%, #fd5849c6 45%,#d6249ec6 60%,#2859ebc6 90%);
+}
+
+.outlook:hover {
+    background:#00a2ed;
+}
+
+.twitter:hover {
+    background:#00acee;
+}
+
+.discord:hover {
+    background: #7289d9;
+}
+
+.reddit:hover {
+    background:#ff4500;
+}
+
+.spotify:hover {
+    background: #1DB954;
+}
+
+.steam:hover {
+    background: #1b2838;
+}
+
+.youtube:hover {
+    background:#FF0000;
+}
+
 .outro {
     font-style: italic;
     width: 80%;
