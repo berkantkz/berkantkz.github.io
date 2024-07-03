@@ -170,6 +170,10 @@ main {
     background:#0866ff;
 }
 
+.spotify:hover {
+    background: #1ed760;
+}
+
 .pinterest:hover {
     background: #e60023;
 }
