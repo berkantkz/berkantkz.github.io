@@ -11,6 +11,12 @@
 
         gtag('config', 'UA-117578942-3');
     </script>
+
+    <style>
+        li {
+            margin: 20px 0;
+        }
+    </style>
 </head>
 
 <body>
@@ -28,7 +34,28 @@
         <br><br>We are committed to protecting your privacy and we will never sell or share your personal information with third parties without your consent.\
 		<br><br>If you have any questions or concerns about our privacy policy, please do not hesitate to contact us.\
 		<br><br>Thank you for using our app.</span>";
-
+        
+        if (app == "bIG DP") {
+            var text = "<span style='font-size: 18px;'><h1>" + app + " Privacy Policy</h1> \
+        <br><strong>Effective Date</strong>: 10.09.2024\
+        <br><br>Your privacy is important to us. This privacy policy explains how " + app + " (referred to as \"the app\") handles user information.\
+        <br><ol><li><strong>Data Collection</strong>\
+        <br>We do not collect or store any personal data from users. The app’s sole function is to allow users to fetch and display Instagram profile pictures using Instagram's API by entering a username.\
+        <br>The app does not require any personal information such as names, emails, or phone numbers from users.</li>\
+        <li><strong>Third-Party Services</strong>\
+        <br>While we do not collect or store any user data, we do use third-party services to support the app’s operations. Specifically:\
+        <br>- <strong>Google Ad Services (AdMob)</strong>: The app displays ads through Google AdMob. Google may collect information such as your device ID and display personalized ads based on your interests. This data collection is governed by Google’s privacy policy. You can review Google’s privacy policy here: <a href='https://policies.google.com/privacy'>(https://policies.google.com/privacy)</a>.</li>\
+        <li><strong>Children’s Privacy</strong>\
+        <br>The app is not intended for children under the age of 13. We do not knowingly collect personal information from children. If we discover that a child under 13 has provided us with personal information, we will immediately delete it.</li>\
+        <li><strong>Security</strong>\
+        <br>We take appropriate measures to protect the app from unauthorized access or modification. However, since no method of transmission over the Internet is completely secure, we cannot guarantee absolute security.</li>\
+        <li><strong>Changes to This Policy</strong>\
+        <br>We may update this privacy policy from time to time. Any changes will be reflected by updating the effective date at the top of this policy. We encourage users to review this policy periodically.\
+        <li><strong>Contact Us</strong>\
+        <br>If you have any questions or concerns about this privacy policy, please contact us via <a href='mailto:berkantk3@gmail.com'>e-mail</a>.</li></ol>\
+        \
+        By using the app, you agree to the terms outlined in this privacy policy.</span>";
+            }
             document.getElementById('info').innerHTML = text;
             document.title = app + " Privacy Policy | berkantkz";
         })();
