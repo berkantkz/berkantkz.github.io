@@ -13,11 +13,6 @@ body {
     -webkit-user-drag: none !important;
 }
 
-i {
-    font-size: 18pt;
-    font-weight: 200;
-}
-
 body {
     background-image: url(/img/e1zRTOC.jpeg);
     background-position: center;
@@ -48,6 +43,7 @@ body::before {
     position: relative;
     height: 1px;
     width: 80%;
+    margin: 2rem;
     background-color: #fff5;
 }
 
@@ -60,7 +56,7 @@ a {
 }
 
 main {
-    padding: 1.5rem;
+    padding: 3rem 1rem 3rem 1rem;
     display: flex;
     flex-direction: column;
     flex-grow: 0;
@@ -132,6 +128,10 @@ main {
     transition: ease-in .15s;
 }
 
+.social-wide i {
+    font-size: 18pt;
+}
+
 .button-links {
     list-style-type: none;
     display: flex;
@@ -149,6 +149,10 @@ main {
     padding: 8px;
     cursor: pointer;
     transition: ease-in .1s;
+}
+
+.social-button i {
+    font-size: 18pt;
 }
 
 .social-button:hover {
